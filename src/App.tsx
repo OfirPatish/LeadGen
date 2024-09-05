@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { ThemeProvider } from "./contexts/ThemeContext";
+import Header from "./components/layout/Header";
+import HeroSection from "./components/sections/HeroSection";
+import Features from "./components/sections/Features";
+import Testimonials from "./components/sections/Testimonials";
+import FAQ from "./components/sections/FAQ";
+import LeadForm from "./components/sections/LeadForm";
+import Footer from "./components/layout/Footer";
+import Statistics from "./components/sections/Statistics";
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider>
+      <div className="App">
+        <Header />
+        <HeroSection /> {/* Awareness */}
+        <Features /> {/* Interest */}
+        <Statistics />
+        <Testimonials /> {/* Consideration */}
+        <FAQ /> {/* Intent */}
+        <LeadForm /> {/* Evaluation */}
+        <Footer /> {/* Purchase CTA */}
+      </div>
+    </ThemeProvider>
   );
-}
+};
 
 export default App;

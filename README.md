@@ -1,46 +1,68 @@
-# Getting Started with Create React App
+# LeadGen Pro - React Lead Generation Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+LeadGen Pro is a modern, responsive lead generation landing page built with React, TypeScript, and Tailwind CSS. It showcases the features and benefits of a fictional lead generation tool, designed to capture and convert potential customers.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Responsive design for all device sizes
+- Dark and light mode support
+- Animated sections using Framer Motion
+- Testimonial carousel using Swiper
+- FAQ section with expandable answers
+- Lead capture form
+- Statistics section with animated counters
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Swiper
+- Lottie React
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+1. Clone the repository:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```
+   git clone https://github.com/your-username/leadgen-pro.git
+   ```
 
-### `npm run build`
+2. Navigate to the project directory:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```
+   cd leadgen-pro
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```
+   npm install
+   ```
 
-### `npm run eject`
+4. Start the development server:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   ```
+   npm start
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Open your browser and visit `http://localhost:3000` to view the app.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Building for Production
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+To create a production build, run:
 
-## Learn More
+```
+npm run build
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This will generate optimized files in the `build` folder, ready for deployment.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
